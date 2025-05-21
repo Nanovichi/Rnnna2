@@ -28,8 +28,8 @@ public class PlayerController : MonoBehaviour
     {
         // Move the player using velocity
         Vector3 velocity = moveDirection * moveSpeed;
-        velocity.y = rb.velocity.y; // Preserve Y velocity (e.g. gravity/jump)
-        rb.velocity = velocity;
+        velocity.y = rb.linearVelocity.y; // Preserve Y velocity (e.g. gravity/jump)
+        rb.linearVelocity = velocity;
     }
 
     public void MoveForward()
