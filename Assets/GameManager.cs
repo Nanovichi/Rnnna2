@@ -12,10 +12,10 @@ public class GameManager : MonoBehaviour
 
     string[] gestureLabels = new string[]
 {
-    "Gesture_0", "Gesture_1", "Gesture_2", "Gesture_3",
+    "Gesture_0", "Gesture_1", "Gesture_10", "Gesture_11",
+    "Gesture_12", "Gesture_13", "Gesture_2", "Gesture_3",
     "Gesture_4", "Gesture_5", "Gesture_6", "Gesture_7",
-    "Gesture_8", "Gesture_9", "Gesture_10", "Gesture_11",
-    "Gesture_12", "Gesture_13"
+    "Gesture_8", "Gesture_9"
 };
 
     private float timer = 0f;
